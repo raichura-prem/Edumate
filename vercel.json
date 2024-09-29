@@ -1,6 +1,6 @@
 {
-    "version": 2,
-    "builds": [
-      { "src": "register.php", "use": "vercel-php@0.6.0" }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    { "src": "register.php", "use": "vercel-php@0.6.0", "runtime": "php" }
+  ]
+}
